@@ -1,6 +1,22 @@
-from config import DATA_PATH
+from config import DATA_PATH,DATE_FORMAT
 import pandas as pd 
 
 df = pd.read_csv(DATA_PATH)
 
 print(df.head())
+
+
+
+def preprocess_dates(df):
+    df = df.copy()
+    df['date'] = pd.to_datetime(df['date'], format=DATE_FORMAT)
+    return df
+
+
+df = preprocess_dates(df)
+print(df.dtypes)
+
+
+def filter_channel(df, channel):
+    return df[df['channel'] == channel].copy()
+
