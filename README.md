@@ -1,8 +1,5 @@
-<img
-  src="assets/assest.png"
-  alt="Causal Inference Collection"
-  style="width:100%; max-height:220px; object-fit:cover;"
-/>
+<img src="assests/assest.png" alt="Causal Inference Collection" style="width:100%; max-height:220px; object-fit:cover;" />
+
 
 
 # causal-inference-projects
