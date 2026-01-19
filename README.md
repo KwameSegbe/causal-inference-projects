@@ -2,5 +2,5 @@
 
 
 
-# causal-inference-projects
-Causal impact analysis using BSTS,
+# Causal Inference Projects
+Bayesian Structural Time Series (BSTS) & Observational Impact Analysis
